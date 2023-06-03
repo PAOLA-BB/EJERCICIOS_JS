@@ -116,25 +116,32 @@ if (calificacion >= 1 && calificacion <= 10) {
 */
 
 //EJE 9
-let topping = prompt("Selecciona un topping para tu helado (oreo / KitKat / brownie):");
-let helado = 50;
+/*
+const topping = prompt("Selecciona un topping para tu helado (oreo / KitKat / brownie):");
+const helado = 50;
 
 if (topping.toLowerCase() === "oreo") {
-  helado = helado + 10;
-  alert("Helado con topping de oreo cuesta " + helado + " MXN");
-  } else if (topping.toLowerCase() === "KitKat") {
-    helado = helado + 15;
-    alert("Helado con topping de kitkat cuesta " + helado + "MXN");
-  } else if (topping.toLowerCase() === "brownie") {
+  oreo = helado + 10;
+  alert("Helado con topping de oreo cuesta " + oreo + " MXN");
+} if (topping.toLowerCase() === "KitKat") {
+  kitkat = helado + 15;
+  alert("Helado con topping de kitkat cuesta " + kitkat + "MXN");
+} if (topping.toLowerCase() === "brownie") {
   helado = helado + 20;
   alert("Helado con topping de brownie cuesta " + helado + "MXN");
-  } else if (topping === "") {
+  } if (topping === "") {
   alert("El precio del helado sin Topping es de 50 MXN.");
-  } else{
+  }  else {
     alert(" “no tenemos este topping, lo sentimos.")
   }
+*/
+let helado = 50;
+let topping = prompt("ingrese topping");
 
 
-
-
-
+if(topping === 'oreo') {
+  topp = 50+10;
+  alert("cuesta" ${top});
+}else{
+  alert("cuesta ghghgh");
+}
